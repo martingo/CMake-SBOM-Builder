@@ -28,7 +28,7 @@ Major Changes include:
 - **Multi Config Generator Enhancements**: The SBOM generation better integrates with multi-config generators like Visual Studio and Ninja Multi-Config. Different SBOM's are generated for each configuration.
 - **Modernized CMake**: A higher minimum required version (>=3.16), ensuring better compatibility and taking advantage of newer functionalities.
 - **Wider support for SPDX 2.3**: More SPDX fields are supported for better compliance with the SPDX 2.3 specification.
-- **Compliance with BSI-Guidelines**
+- **Compliance with BSI-Guidelines**: e.g. TR 03183
 - **Improved Documentation**
 
 ---
