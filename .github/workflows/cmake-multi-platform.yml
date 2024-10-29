@@ -74,3 +74,10 @@ jobs:
       run: cmake --build ${{ steps.strings.outputs.build-output-dir }} --target install
       env:
         CMAKE_VERSION: ${{ matrix.cmake_version }}
+
+  scorecard:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Run OpenSSF Scorecard
+      uses: ossf/scorecard-action@v2

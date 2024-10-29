@@ -1,5 +1,7 @@
 # CMake SBOM Builder
 
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/martingo/CMake-SBOM-Builder/badge)](https://api.securityscorecards.dev/projects/github.com/martingo/CMake-SBOM-Builder)
+
 Generating SPDX Software Bill of Materials (SBOMs) for arbitrary CMake projects.
 
 The CMake-SBOM-Builder aims to be compliant with:
